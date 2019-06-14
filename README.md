@@ -18,3 +18,5 @@ Any of the Rscripts can be running using the following command:
 Rscript <simulated_ATAC_tests_[limma/DESeq/DESeq2/edgeR/rank_based/t_test].R simulated_ATAC_peaks.txt data_table.txt
 
 The Rscript will create 10 files int he the current diretory named [limma/DESeq/DESeq2/edgeR/rank_based/t_test]_simulated_ATAC_peaks.txt_[20/15/12/10/8/6/5/4/3/2]_reps.txt.  Each file contains the number of DAR called for each condition.
+
+The time required for the Rscript varries dependent on which tool is being used.  As an example, we have found that limma requires approximately 10 minutes.
